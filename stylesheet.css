@@ -126,7 +126,23 @@ h4 {
 }
 
 .interest {
+
+    position: relative;
+    width: 100%;
+}
+
+.interest > img{
     border-radius: 50%;
     height: 250px;
     width: 250px;
+}
+
+.interest > p {
+    position: absolute;
+    top: 110px;
+    left: 120px;
+    width: 30%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
