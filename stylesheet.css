@@ -135,14 +135,18 @@ h4 {
     border-radius: 50%;
     height: 250px;
     width: 250px;
+    -webkit-filter: grayscale(100%);
+}
+
+.interest > img:hover {
+    -webkit-filter: grayscale(0%);
 }
 
 .interest > p {
     position: absolute;
     top: 110px;
-    left: 120px;
+    left: 110px;
     width: 30%;
-    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.6);
     padding: 10px;
 }
